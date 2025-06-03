@@ -23,6 +23,7 @@ crearElementoBtn.addEventListener('click', function(){
     console.log('parrafo añadido dinamicamente');
 })
 
-//cambiarEstiloBtn.addEventListener('click', function()=>{
- //   
-//})
+cambiarEstiloBtn.addEventListener('click', function(){
+   const estiloNuevo = document.querySelector('p');
+   estiloNuevo.classList.toggle('resaltado');
+})
